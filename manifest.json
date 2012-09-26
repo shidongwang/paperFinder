@@ -1,0 +1,11 @@
+{
+  "name": "Paper Finder",
+  "description" : "To use, type 'DOI' plus a DOI number into the Omnibox. Or right click the selected string",
+  "version": "0.1",
+  "permissions": [ "contextMenus" ],
+  "background": {
+    "scripts": ["background.js"]
+  },
+  "omnibox": { "keyword" : "DOI"}, 
+  "manifest_version": 2
+}
