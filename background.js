@@ -25,7 +25,6 @@ function getDOI(info, tab) {
 // search the selected string in Google Scholar, pubMed, or Google
 function getPage(info, tab, web) {
   var url;
-  alert(web);
   if (web == "scholar") {
       url = "http://www.google.com/scholar?q=";
   } else if (web == "pubmed") {
